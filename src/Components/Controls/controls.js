@@ -14,7 +14,7 @@ export default function Controls({ head, setHead, middle, setMiddle, bottom, set
         <select value={middle} onChange={(e) => setMiddle(e.target.value)} >
           <option value="pink">Pink</option>
           <option value="gothic">Gothic</option>
-          <option value="formal">Formal</option>
+          <option value="classic">Classic</option>
         </select>
         <label>BOTTOM</label>
         <select value={bottom} onChange={(e) => setBottom(e.target.value)} >

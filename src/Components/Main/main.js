@@ -12,7 +12,7 @@ export default function Main() {
   return (
     <main>
       <Controls head={head} setHead={setHead} middle={middle} setMiddle={setMiddle} bottom={bottom} setBottom={setBottom} />
-      <Character head={head} />
+      <Character head={head} middle={middle} />
     </main>
   );
 }
