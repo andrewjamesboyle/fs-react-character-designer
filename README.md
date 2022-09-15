@@ -10,6 +10,6 @@ THE PLAN
     - img src='process.env.publicurl/{head}.png
 7. BUILD setCOUNTERS in controls.js, PASS HEADCOUNT, ETC INTO DISPLAY AS PROPS
     - use an anonymous click function and store the return in a variable const handleIncrement = () =>
-8. BUILD CATCHPHRASE INPUT FORM - SETCATCPHRASE
+8. BUILD CATCHPHRASE INPUT FORM - SETCATCHPHRASE
 9. PASS CATCHPHRASE VALUE INTO DISPLAY AS PROP
 10. RENDER CATCPHRASE IN DISPLAY

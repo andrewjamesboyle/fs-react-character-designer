@@ -13,6 +13,8 @@ export default function Main() {
   const [headCount, setHeadCount] = useState(0);
   const [middleCount, setMiddleCount] = useState(0);
   const [bottomCount, setBottomCount] = useState(0);
+
+  const [catchphrase, setCatchphrase] = useState([]);
   
   const handleIncrement = (bodyPart) => {
     if (bodyPart === 'head') {
@@ -24,11 +26,15 @@ export default function Main() {
     }
   };
 
+  const handleCatchphrase = () => {
+      setCatchphrase(())
+  }
   return (
     <main>
       <Controls head={head} setHead={setHead} handleIncrement={handleIncrement} middle={middle} setMiddle={setMiddle} bottom={bottom} setBottom={setBottom} />
       <Character head={head} middle={middle} bottom={bottom} />
-      <Display headCount={headCount} middleCount={middleCount} bottomCount={bottomCount} />
+      <Catchphrase handleCatchphrase={handleCatchphrase} />
+      <Display headCount={headCount} middleCount={middleCount} bottomCount={bottomCount} catchphrase={catchphrase} />
     </main>
   );
 }
