@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Character({ head, middle }) {
+export default function Character({ head, middle, bottom }) {
   return (
     <>  
       <div>
@@ -8,6 +8,9 @@ export default function Character({ head, middle }) {
       </div>
       <div>
         <img src={`${process.env.PUBLIC_URL}/${middle}.png`} />
+      </div>
+      <div>
+        <img src={`${process.env.PUBLIC_URL}/${bottom}.png`} />
       </div>
     </>
   );
