@@ -6,6 +6,7 @@ import Character from '../Character/character';
 import Display from '../Display/display';
 import Catchphrase from '../Catchphrase/catchphrase';
 
+
 export default function Main() {
   const [head, setHead] = useState('cartman');
   const [middle, setMiddle] = useState('pink');
