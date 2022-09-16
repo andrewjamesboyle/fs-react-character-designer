@@ -11,8 +11,10 @@ THE PLAN
 7. BUILD setCOUNTERS in controls.js, PASS HEADCOUNT, ETC INTO DISPLAY AS PROPS
     - use an anonymous click function and store the return in a variable const handleIncrement = () =>
 8. BUILD CATCHPHRASE INPUT FORM - SETCATCHPHRASE
-    - capture the value of an input
-    - add that value to an array of catchphrases
-    - map through the array and display
+    - create catchphrase empty array in state (main.js)
+    - capture the value of an input (in catchphrase.js)
+    - add that value to an array of catchphrases (setCatchphrase)
+    - map through the array and display -- in display.js
+        - catchphrases.map(catchphrase)
 9. PASS CATCHPHRASE VALUE INTO DISPLAY AS PROP
 10. RENDER CATCPHRASE IN DISPLAY
